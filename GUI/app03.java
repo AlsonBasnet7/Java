@@ -1,17 +1,15 @@
 import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.JButton;
-public class app03 {
-    public static void main(String args){
-        JFrame frame = new JFrame("Another GUI");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        JLabel labelName1 = new JLabel("FirstName");
-        labelName1.setBounds(200,100,30,20);
-        z
+public class app03{
+    public static void main(String[] args){
+        //Jframe = a GUI window to add components to 
+        JFrame frame = new JFrame();//creates a frame
+        frame.setTitle("JFrame title goes here");//sets the title of frame
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//exit out of the applicaiton
+        frame.setResizable(false);//prevent frame from begin resized.
+        frame.setSize(420,420);//sets the dimension of x, y in the frame
+        frame.setVisible(true);//makes the framevisible
+       
 
-        frame.pack();
-        frame.setVisible(true);
 
     }
 }
