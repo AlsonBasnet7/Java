@@ -15,6 +15,9 @@ public class ExceptionHandling {
             System.out.println("Please enter a valid integer");
         }
         System.err.println("Hello Bokachoda");
+        finally{
+            System.err.println("This block of code while execute no matter what");
+        }
         //try and catch block
         // try {
         //     int div1 = num1 / num2;
